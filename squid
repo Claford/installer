@@ -103,6 +103,7 @@ then
     /bin/rm -f /etc/squid/squid.conf
     /usr/bin/wget --no-check-certificate -O /etc/squid/squid.conf https://raw.githubusercontent.com/Claford/oponside/alphine/squid.conf
     service squid restart
+wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/tcptweaker.sh; chmod +x tcptweaker.sh; ./tcptweaker.sh -s
 else
     echo "OS NOT SUPPORTED.\n"
     echo "Message: https://m.me/Gwapo.Paquibot to add support for your os."

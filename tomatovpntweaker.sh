@@ -31,7 +31,7 @@ else
 	echo "of the system to reduce latency and improve speed."
 	echo ""
 	read -p "Continue with the installation? [y / n]:" -e -in answer
-	if [["$ answer" = 'y']]; then
+	if [["$ answer" = 's']]; then
 	echo ""
 	echo "Modifying the following settings:"
 	echo "" >> /etc/sysctl.conf

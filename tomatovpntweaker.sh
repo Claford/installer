@@ -54,7 +54,4 @@ sysctl -p /etc/sysctl.conf
 		echo ""
 	fi
 fi
-echo -e "\E[44;1;37m       Rebooting System..       \E[0m"
-echo ""
-echo ""
-reboot
+exit
